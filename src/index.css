@@ -6,8 +6,26 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+ 
+font-face {
+  font-family: 'ClashDisplay-Bold';
+  src: url('./font/clashdisplay/ClashDisplay-Bold.woff2') format('woff2'),
+       url('./font/clashdisplay/ClashDisplay-Bold.woff') format('woff'),
+       url('./font/clashdisplay/ClashDisplay-Bold.ttf') format('truetype');
+       font-weight: 200 700;
+       font-display: swap;
+       font-style: normal;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+
+
+
+
